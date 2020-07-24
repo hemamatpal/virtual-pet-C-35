@@ -32,7 +32,7 @@ function setup()
          var feed = createButton("Feed "+name);
          feed.position(700,95);
          feed.mousePressed(feedDog);
-       //  feed.mousePressed(goToDog);
+       // feed.mousePressed(goToDog);
          var addFood=createButton("Add Food");
          addFood.position(800,95);
          addFood.mousePressed(addFoods);
